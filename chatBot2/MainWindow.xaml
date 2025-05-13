@@ -1,0 +1,26 @@
+﻿<Window x:Class="CybersecurityChatbotWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mercy Cybersecurity Assistant" Height="500" Width="600"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <!-- Chat display -->
+            <RowDefinition Height="Auto" />
+            <!-- Input area -->
+        </Grid.RowDefinitions>
+
+        <!-- Chat history -->
+        <ListBox x:Name="ChatHistory" Grid.Row="0" Margin="0,0,0,10"
+                 FontFamily="Consolas" />
+
+        <!-- User input + Send button -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBox x:Name="UserInput" Width="450" Height="30" VerticalContentAlignment="Center"
+                     KeyDown="UserInput_KeyDown" />
+            <Button x:Name="SendButton" Content="Send" Width="100" Height="30" Margin="10,0,0,0"
+                    Click="SendButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

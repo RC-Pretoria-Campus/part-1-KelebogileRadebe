@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tpG92mwBOto=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RC_Student_lab\\source\\repos\\chatBot2\\chatBot2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RC_Student_lab\\.nuget\\packages\\system.speech\\9.0.4\\system.speech.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
